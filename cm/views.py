@@ -8,8 +8,8 @@ def index(request):
 def home(request):
     return render(request,"cm1/sam1.html")
 
-def tem(request):
-    return render(request,"child.html")
+def child(request):
+    return render(request,"cm1/child.html")
 
 def sam(request):
     return render(request,"cm1/sample.html")
