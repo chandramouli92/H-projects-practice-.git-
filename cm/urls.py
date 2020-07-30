@@ -1,6 +1,6 @@
 from django.urls import path
 from cm import views
-open_name='cm'
+app_name='cm'
 
 urlpatterns= [
     path('',views.index,name="index"),
